@@ -15,7 +15,7 @@ The dataset used for training, validation, and testing the model is available in
 The CNN model architecture is as follows:
 
 - Input layer: Accepts images of size 350x350 pixels with 3 color channels.
-- Convolutional layers:  convolutional and max-pooling layer.
+- Convolutional layers:  One convolutional and  one max-pooling layer.
 - Flatten layer: Flattens the output from convolutional layers into a 1D array.
 - Dense layers: One dense layer with dropout for regularization.
 - Output layer: Dense layer with softmax activation for classifying images into two classes (wildfire or non-wildfire).
